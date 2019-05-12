@@ -1,3 +1,4 @@
+{% if grains['os_family'] == 'Debian' %}
 rxvt-unicode:
   pkg.installed
 
@@ -24,3 +25,4 @@ fonts-inconsolata:
         URxvt*scrollTtyOutput:      false
         URxvt*scrollWithBuffer:     true
         URxvt*scrollTtyKeypress:    true
+{% endif %}
