@@ -7,3 +7,4 @@ ttimo:
     - rxvt
     - dropbox
     - sourcetrail
+    - google-chrome
