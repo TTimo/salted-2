@@ -2,6 +2,7 @@ ttimo:
   '*':
     - packages
     - p4
+    - p4python
   'G@roles:desktop':
     - desktop
     - rxvt
