@@ -7,3 +7,4 @@ desktop-packages:
 {% if grains['os_family'] == 'Arch' %}
       - i3-gaps
 {% endif %}
+      - meld
